@@ -5,8 +5,8 @@ Fancy command-line styled errorpages with errorcodes in ASCII art. The script us
 Clone the repository and configure your web server to use the custom error pages. Change `/path/to/files/` to the destination folder of the errorpages.
 
 Here's an example in nginx:
-`location /error/ {`
-`    alias /path/to/files/;`
+```location /error/ {
+    alias /path/to/files/;
 }
 
 error_page 400 /error/400.html;
@@ -44,4 +44,4 @@ error_page 505 /error/505.html;
 error_page 506 /error/506.html;
 error_page 507 /error/507.html;
 error_page 508 /error/508.html;
-error_page 510 /error/510.html;`
+error_page 510 /error/510.html;```
