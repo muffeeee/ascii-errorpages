@@ -44,4 +44,5 @@ error_page 505 /error/505.html;
 error_page 506 /error/506.html;
 error_page 507 /error/507.html;
 error_page 508 /error/508.html;
-error_page 510 /error/510.html;```
+error_page 510 /error/510.html;
+```
